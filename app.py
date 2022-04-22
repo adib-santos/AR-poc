@@ -1,5 +1,6 @@
 from flask import Flask, render_template 
 import routes.routes as routes
+import time
 
 
 app = Flask(__name__)
